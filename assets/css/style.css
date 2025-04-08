@@ -90,9 +90,6 @@ hr {
   align-self: stretch;
 }
 
-.section-portfolio {
-  border-radius: 15px;
-}
 .section-portfolio-header {
   padding: 0.1em 0;
   width: 100%;
@@ -106,7 +103,7 @@ hr {
   display: grid;
   grid-template-columns: 1fr;
   align-items: stretch;
-  border: 0.12em solid var(--secondary);
+  border-bottom: 0.12em solid var(--secondary);
 }
 
 .projects-list > div {
